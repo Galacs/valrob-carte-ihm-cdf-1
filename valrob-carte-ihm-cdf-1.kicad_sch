@@ -12891,7 +12891,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Pers:HS96L03W2C03"
 			(at 104.14 112.395 0)
 			(effects
 				(font

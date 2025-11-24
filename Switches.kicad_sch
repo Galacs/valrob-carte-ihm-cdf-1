@@ -1002,6 +1002,332 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_SPST"
 			(pin_names
 				(offset 0)
@@ -1395,16 +1721,16 @@
 		(uuid "12dbdcfc-bde1-41c6-8e65-4450da68d5f4")
 	)
 	(junction
-		(at 125.73 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24c2cc83-b6ec-4c4c-9b60-f300a8e88898")
-	)
-	(junction
 		(at 130.81 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48691939-3780-4437-a7f1-503cbd08796c")
+	)
+	(junction
+		(at 130.81 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d2691fc-469c-4ab0-9672-fad121a3433f")
 	)
 	(junction
 		(at 143.51 80.01)
@@ -1429,12 +1755,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "647486dc-b6b9-4863-a4bd-257c6ea60774")
-	)
-	(junction
-		(at 130.81 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e3c5b10-143f-49fb-b2c4-c165c726d8ac")
 	)
 	(junction
 		(at 125.73 121.92)
@@ -1467,16 +1787,22 @@
 		(uuid "bc15b34e-0876-4128-9562-5e3eb45161af")
 	)
 	(junction
-		(at 130.81 101.6)
+		(at 125.73 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "da270cda-5d76-4918-8186-b9387bb6a09a")
+		(uuid "d744947f-ceb4-4675-86db-15cd22389f90")
 	)
 	(junction
 		(at 143.51 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eaa29550-24d2-4373-8f20-b980178656e8")
+	)
+	(junction
+		(at 127 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec933e3a-a34d-4309-b9fb-c914e961c770")
 	)
 	(junction
 		(at 143.51 58.42)
@@ -1505,16 +1831,6 @@
 			(type default)
 		)
 		(uuid "0b327aae-b8a0-4efe-b6be-12d241d7cc58")
-	)
-	(wire
-		(pts
-			(xy 125.73 121.92) (xy 130.81 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c16f7dc-829f-4bda-983b-3c421c05c519")
 	)
 	(wire
 		(pts
@@ -1588,16 +1904,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 121.92) (xy 130.81 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f298fdb-11b3-4634-bd8e-cbb77ff61fa4")
-	)
-	(wire
-		(pts
 			(xy 143.51 80.01) (xy 146.05 80.01)
 		)
 		(stroke
@@ -1648,13 +1954,33 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 101.6) (xy 130.81 102.87)
+			(xy 130.81 101.6) (xy 133.35 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36b2bde8-8aec-42b7-9954-61c1459256cb")
+		(uuid "2ef671ac-0b4d-4f8f-adc7-6c524731b0cf")
+	)
+	(wire
+		(pts
+			(xy 127 121.92) (xy 133.35 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "372bbe37-75d7-42a4-a90c-9f74443ba8db")
+	)
+	(wire
+		(pts
+			(xy 113.03 111.76) (xy 113.03 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c69d07b-e2fa-41e3-aae2-b67550ac3cae")
 	)
 	(wire
 		(pts
@@ -1738,16 +2064,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 101.6) (xy 130.81 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e1c7b94-9ee3-41b0-9c6f-0067952167d4")
-	)
-	(wire
-		(pts
 			(xy 125.73 80.01) (xy 125.73 81.28)
 		)
 		(stroke
@@ -1778,13 +2094,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 113.03) (xy 130.81 114.3)
+			(xy 113.03 110.49) (xy 114.3 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56d80216-c399-41b7-997d-4a8d56a12c7a")
+		(uuid "54093c2c-e8e1-4729-a805-75a8e38993d8")
 	)
 	(wire
 		(pts
@@ -1815,16 +2131,6 @@
 			(type default)
 		)
 		(uuid "60f9974a-0a9b-4516-8aa2-d3730775636e")
-	)
-	(wire
-		(pts
-			(xy 125.73 101.6) (xy 130.81 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63b9942b-d4ff-4784-9cf7-674b68eb1efd")
 	)
 	(wire
 		(pts
@@ -1928,16 +2234,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 133.35) (xy 130.81 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f85f3bc-d16d-46ec-86b4-d4bd1b51b1b1")
-	)
-	(wire
-		(pts
 			(xy 143.51 46.99) (xy 143.51 49.53)
 		)
 		(stroke
@@ -1945,6 +2241,16 @@
 			(type default)
 		)
 		(uuid "92784297-af60-4432-8fba-cc4cc2f40eb3")
+	)
+	(wire
+		(pts
+			(xy 125.73 107.95) (xy 125.73 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "968cb661-d545-4083-9c70-e27a5a233d73")
 	)
 	(wire
 		(pts
@@ -2108,7 +2414,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 121.92) (xy 130.81 121.92)
+			(xy 125.73 121.92) (xy 127 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2145,6 +2451,16 @@
 			(type default)
 		)
 		(uuid "c2d2065d-f827-404e-aeed-a721643a9241")
+	)
+	(wire
+		(pts
+			(xy 125.73 101.6) (xy 130.81 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c39d7bd2-33fc-4f8e-a513-73df44a57658")
 	)
 	(wire
 		(pts
@@ -2195,6 +2511,16 @@
 			(type default)
 		)
 		(uuid "cd91f4d6-c2da-4254-855c-0ee292859105")
+	)
+	(wire
+		(pts
+			(xy 127 113.03) (xy 127 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cee1df95-3eb2-454a-b652-ccce8eccce82")
 	)
 	(wire
 		(pts
@@ -2268,13 +2594,23 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 110.49) (xy 125.73 114.3)
+			(xy 130.81 110.49) (xy 130.81 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e3859e0e-550b-4e15-9877-3f9bcb5677ac")
+	)
+	(wire
+		(pts
+			(xy 124.46 113.03) (xy 127 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e59f6ae0-c7bc-4650-ac88-2daf97496ec7")
 	)
 	(wire
 		(pts
@@ -2285,6 +2621,16 @@
 			(type default)
 		)
 		(uuid "eb6d227f-2d7e-4ee9-99c0-8b3a9b6f49b8")
+	)
+	(wire
+		(pts
+			(xy 124.46 107.95) (xy 125.73 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec00480b-f931-4cd9-bdec-7bb9fc8b8fec")
 	)
 	(wire
 		(pts
@@ -2338,7 +2684,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 101.6) (xy 125.73 102.87)
+			(xy 130.81 101.6) (xy 130.81 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2421,74 +2767,6 @@
 			(justify left)
 		)
 		(uuid "bd929b0b-ec6a-4696-9440-9ef599da291d")
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 130.81 107.95 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "04a3b7d5-fa14-4ebb-82b5-acf8230ccb87")
-		(property "Reference" "SW7"
-			(at 133.604 108.712 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 127 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 130.81 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d0e1dbbd-5947-4389-894e-0604c107275a")
-		)
-		(pin "2"
-			(uuid "5854409a-8668-4631-b6c5-e20ab565d555")
-		)
-		(instances
-			(project "valrob-carte-ihm-cdf-1"
-				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "SW7")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2745,6 +3023,111 @@
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 130.81 86.36 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a6f6d52-513d-4025-beb6-0473914e4a8c")
+		(property "Reference" "SW5"
+			(at 129.032 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 135.89 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
+			(at 135.89 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 130.81 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 130.81 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TS-1088-AR02016"
+			(at 130.81 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 130.81 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C720477"
+			(at 130.81 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d9151d26-c0c2-4846-816a-8a85e3a57a6a")
+		)
+		(pin "1"
+			(uuid "21e40c2b-9939-44fa-b7cb-44de3865d267")
+		)
+		(instances
+			(project "valrob-carte-ihm-cdf-1"
+				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -3398,7 +3781,7 @@
 	)
 	(symbol
 		(lib_id "Pers:H5VU10U")
-		(at 125.73 106.68 270)
+		(at 130.81 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3406,7 +3789,7 @@
 		(dnp no)
 		(uuid "3b5888fd-12cb-447d-b1cd-028eaaa75283")
 		(property "Reference" "D9"
-			(at 120.904 106.68 90)
+			(at 132.842 107.442 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3415,7 +3798,7 @@
 			)
 		)
 		(property "Value" "H5VU10U"
-			(at 128.27 107.9499 90)
+			(at 133.35 107.9499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3425,7 +3808,7 @@
 			)
 		)
 		(property "Footprint" "Pers:Diode_DFN1006"
-			(at 121.285 106.68 0)
+			(at 126.365 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3434,7 +3817,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2504101957_hongjiacheng-H5VU10U_C22395519.pdf"
-			(at 125.73 106.68 0)
+			(at 130.81 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3443,7 +3826,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 0.8pF 16V 200nA 55W@8/20us 5A@8/20us 5V 6V ESD IEC 61000-4-2 Unidirectional DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 125.73 106.68 0)
+			(at 130.81 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3452,7 +3835,7 @@
 			)
 		)
 		(property "Basic" "E"
-			(at 125.73 106.68 90)
+			(at 130.81 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3461,7 +3844,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C22395519"
-			(at 125.73 106.68 90)
+			(at 130.81 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3470,7 +3853,7 @@
 			)
 		)
 		(property "Manufacturer" "hongjiacheng"
-			(at 125.73 106.68 90)
+			(at 130.81 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3479,7 +3862,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "H5VU10U"
-			(at 125.73 106.68 90)
+			(at 130.81 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3566,6 +3949,111 @@
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 130.81 43.18 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44369b60-ae6a-471c-b57e-de0df0cd20e2")
+		(property "Reference" "SW7"
+			(at 129.032 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 135.89 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
+			(at 135.89 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 130.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 130.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TS-1088-AR02016"
+			(at 130.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 130.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C720477"
+			(at 130.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cb5cbb94-f524-409c-9199-4d90834bc8c5")
+		)
+		(pin "1"
+			(uuid "66f67982-6b24-4df4-af6c-2e8c0b4dd79c")
+		)
+		(instances
+			(project "valrob-carte-ihm-cdf-1"
+				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -3834,74 +4322,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 130.81 43.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "63690a54-799e-4319-9113-6ed23345d676")
-		(property "Reference" "SW8"
-			(at 133.604 43.942 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 127 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 130.81 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eabfe004-9d6f-4e5f-b5a4-88fa9cb5fab2")
-		)
-		(pin "2"
-			(uuid "a1bfb9ce-1cfb-4e7f-a27b-2b5fc8570109")
-		)
-		(instances
-			(project "valrob-carte-ihm-cdf-1"
-				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "SW8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 143.51 92.71 0)
 		(unit 1)
@@ -4134,6 +4554,71 @@
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6dd77835-5ccd-4de2-a355-c34e53e6588c")
+		(property "Reference" "#PWR036"
+			(at 113.03 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "246ddd34-cfbe-41b5-ae53-83c611364cea")
+		)
+		(instances
+			(project "valrob-carte-ihm-cdf-1"
+				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -4933,7 +5418,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 125.73 114.3 0)
+		(at 130.81 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4941,7 +5426,7 @@
 		(dnp no)
 		(uuid "96fc9616-c798-4809-8493-8e79b0d96308")
 		(property "Reference" "#PWR041"
-			(at 125.73 120.65 0)
+			(at 130.81 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4950,7 +5435,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 118.364 0)
+			(at 130.81 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4958,7 +5443,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 114.3 0)
+			(at 130.81 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4967,7 +5452,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 114.3 0)
+			(at 130.81 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4976,7 +5461,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 114.3 0)
+			(at 130.81 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4991,71 +5476,6 @@
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a1b6c624-b6b4-46e7-bbaa-dac2702d876c")
-		(property "Reference" "#PWR036"
-			(at 130.81 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 138.684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f0d1d5c-81e7-4376-b992-7221dd344577")
-		)
-		(instances
-			(project "valrob-carte-ihm-cdf-1"
-				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -5564,74 +5984,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 130.81 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b2147c65-d798-4a41-896d-1e707ef171fc")
-		(property "Reference" "SW5"
-			(at 133.604 129.032 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 127 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 130.81 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "291b9066-ac4a-4027-af9d-4f55ce800489")
-		)
-		(pin "2"
-			(uuid "855a5b25-0c0c-498e-a70b-3ffaefb9e118")
-		)
-		(instances
-			(project "valrob-carte-ihm-cdf-1"
-				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 130.81 71.12 0)
 		(unit 1)
@@ -5894,74 +6246,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 130.81 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c2b9f11c-3d60-45fb-9fd1-7685803fe5e1")
-		(property "Reference" "SW6"
-			(at 133.604 87.122 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 127 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 130.81 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3eb1f3a8-caa2-446a-bdce-ddb2b53c6d4e")
-		)
-		(pin "2"
-			(uuid "522fd304-763b-48fa-9dd9-8f0cb0660edf")
-		)
-		(instances
-			(project "valrob-carte-ihm-cdf-1"
-				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "SW6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 114.3 57.15 0)
 		(unit 1)
@@ -6159,74 +6443,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 130.81 64.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cae40e9d-c3bb-40db-b48c-d8e3696f994a")
-		(property "Reference" "SW9"
-			(at 133.604 65.532 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 127 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 130.81 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a8ee9ce-95ca-43f3-8568-79db20bc5af1")
-		)
-		(pin "2"
-			(uuid "d2c5361e-ea62-4e79-bdf3-8cdaf60c62ea")
-		)
-		(instances
-			(project "valrob-carte-ihm-cdf-1"
-				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "SW9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 191.77 76.2 0)
 		(unit 1)
@@ -6287,6 +6503,182 @@
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 130.81 64.77 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2ce4940-87eb-4660-a5fb-ed849bbef4b8")
+		(property "Reference" "SW6"
+			(at 129.032 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 135.89 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
+			(at 135.89 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 130.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 130.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TS-1088-AR02016"
+			(at 130.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 130.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C720477"
+			(at 130.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "44f7e9cc-e7b7-45ef-847c-ffd0ee7a32d0")
+		)
+		(pin "1"
+			(uuid "18ba2c33-4cb3-46be-8e20-a034fd906978")
+		)
+		(instances
+			(project "valrob-carte-ihm-cdf-1"
+				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 119.38 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d394a71b-d626-413a-90b7-b5f8ae1000ed")
+		(property "Reference" "SW10"
+			(at 119.38 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 119.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Pers:MT-0-102-A101-M200-RS"
+			(at 119.38 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 119.38 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e225cd6d-7527-4283-9431-db23fc5d61fb")
+		)
+		(pin "1"
+			(uuid "1c53c3e5-f2f7-49df-9c19-d4e9ca81883d")
+		)
+		(pin "2"
+			(uuid "7fd2c98b-73f8-4ffe-a052-78ce1676bc8f")
+		)
+		(instances
+			(project ""
+				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -6459,71 +6851,6 @@
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
 					(reference "U4")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd82b227-c47a-47ff-af8f-565cb97e19a2")
-		(property "Reference" "#PWR043"
-			(at 130.81 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 118.364 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd3d0e01-e090-483c-8625-3eaf0a944a90")
-		)
-		(instances
-			(project "valrob-carte-ihm-cdf-1"
-				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "#PWR043")
-					(unit 1)
 				)
 			)
 		)
@@ -6704,7 +7031,7 @@
 		(at 130.81 149.86 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f16a2eca-4b88-4f36-96fb-224603c12bc2")
@@ -6725,7 +7052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 130.81 149.86 0)
 			(effects
 				(font
