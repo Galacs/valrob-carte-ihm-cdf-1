@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "cc06f611-a096-4798-9d93-499c62373eed")
 	(paper "A4")
+	(title_block
+		(title "Carte IHM CDF 1")
+		(date "2025-11-24")
+		(rev "01")
+		(company "Valrobotik")
+	)
 	(lib_symbols
 		(symbol "74xx:74HC14"
 			(pin_names
