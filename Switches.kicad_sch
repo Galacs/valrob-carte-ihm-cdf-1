@@ -3195,7 +3195,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1a6f6d52-513d-4025-beb6-0473914e4a8c")
@@ -3216,7 +3216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
 			(at 135.89 86.36 0)
 			(effects
 				(font
@@ -3243,7 +3243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "XUNPU"
+		(property "Manufacturer" ""
 			(at 130.81 86.36 0)
 			(effects
 				(font
@@ -3252,7 +3252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "TS-1088-AR02016"
+		(property "Manufacturer Part Number" ""
 			(at 130.81 86.36 0)
 			(effects
 				(font
@@ -3261,7 +3261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Basic" "Y"
+		(property "Basic" ""
 			(at 130.81 86.36 0)
 			(effects
 				(font
@@ -3270,7 +3270,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C720477"
+		(property "JLCPCB Part #" ""
 			(at 130.81 86.36 0)
 			(effects
 				(font
@@ -4440,7 +4440,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "44369b60-ae6a-471c-b57e-de0df0cd20e2")
@@ -4461,7 +4461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
 			(at 135.89 43.18 0)
 			(effects
 				(font
@@ -4488,7 +4488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "XUNPU"
+		(property "Manufacturer" ""
 			(at 130.81 43.18 0)
 			(effects
 				(font
@@ -4497,7 +4497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "TS-1088-AR02016"
+		(property "Manufacturer Part Number" ""
 			(at 130.81 43.18 0)
 			(effects
 				(font
@@ -4506,7 +4506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Basic" "Y"
+		(property "Basic" ""
 			(at 130.81 43.18 0)
 			(effects
 				(font
@@ -4515,7 +4515,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C720477"
+		(property "JLCPCB Part #" ""
 			(at 130.81 43.18 0)
 			(effects
 				(font
@@ -7632,7 +7632,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d2ce4940-87eb-4660-a5fb-ed849bbef4b8")
@@ -7653,7 +7653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
 			(at 135.89 64.77 0)
 			(effects
 				(font
@@ -7680,7 +7680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "XUNPU"
+		(property "Manufacturer" ""
 			(at 130.81 64.77 0)
 			(effects
 				(font
@@ -7689,7 +7689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "TS-1088-AR02016"
+		(property "Manufacturer Part Number" ""
 			(at 130.81 64.77 0)
 			(effects
 				(font
@@ -7698,7 +7698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Basic" "Y"
+		(property "Basic" ""
 			(at 130.81 64.77 0)
 			(effects
 				(font
@@ -7707,7 +7707,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C720477"
+		(property "JLCPCB Part #" ""
 			(at 130.81 64.77 0)
 			(effects
 				(font
