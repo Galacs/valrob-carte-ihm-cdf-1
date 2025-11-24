@@ -3151,6 +3151,165 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Pers:HS96L03W2C03"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -0.762 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HS96L03W2C03"
+				(at -7.366 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C5248080.pdf"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.96 128x64 SSD1315 I2C LCD, OLED, Graphic RoHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "1.2A LDO Regulator Fixed Positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TSOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HS96L03W2C03_0_1"
+				(rectangle
+					(start -5.08 3.175)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "HS96L03W2C03_1_1"
+				(pin power_in line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 1.27 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power_Protection:USBLC6-2SC6"
 			(pin_names
 				(hide yes)
@@ -5022,6 +5181,18 @@
 		(uuid 4f1531d6-ecbb-4eb4-ad9a-dc0ac256ea8c)
 	)
 	(rectangle
+		(start 82.55 105.41)
+		(end 125.73 132.08)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5a5f4212-22be-40e2-ae62-a7e81d3cf874)
+	)
+	(rectangle
 		(start 15.24 152.4)
 		(end 80.01 194.31)
 		(stroke
@@ -5177,7 +5348,7 @@
 	)
 	(text "BATT sense"
 		(exclude_from_sim no)
-		(at 116.586 157.988 0)
+		(at 116.586 159.004 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -5231,6 +5402,18 @@
 			)
 		)
 		(uuid "f38f4506-032b-420f-b20c-fa67af67d365")
+	)
+	(text "128x64 OLED display"
+		(exclude_from_sim no)
+		(at 99.568 108.458 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "fe7a0108-6110-4e30-ad59-6370fc5ad9f9")
 	)
 	(junction
 		(at 186.69 45.72)
@@ -5676,6 +5859,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 116.84) (xy 114.3 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2475aa9e-7182-446d-b2f2-81b15d0af1ab")
+	)
+	(wire
+		(pts
 			(xy 59.69 130.81) (xy 60.96 130.81)
 		)
 		(stroke
@@ -6023,6 +6216,16 @@
 			(type default)
 		)
 		(uuid "50c1355c-9deb-4ca7-9c5d-55c3edd7a8a3")
+	)
+	(wire
+		(pts
+			(xy 114.3 119.38) (xy 111.76 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56f288b0-4c0d-415c-b841-23c69ea06898")
 	)
 	(wire
 		(pts
@@ -6686,6 +6889,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 121.92) (xy 111.76 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0f96735-d57d-45b4-a152-74af7ca07657")
+	)
+	(wire
+		(pts
 			(xy 267.97 128.27) (xy 266.7 128.27)
 		)
 		(stroke
@@ -6723,6 +6936,16 @@
 			(type default)
 		)
 		(uuid "b39929ca-dc1d-4f8f-90ff-c92ff41eeae2")
+	)
+	(wire
+		(pts
+			(xy 114.3 124.46) (xy 114.3 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b39a2547-9395-48eb-817b-a6401a08da66")
 	)
 	(wire
 		(pts
@@ -7056,6 +7279,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 121.92) (xy 96.52 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9309cd2-666c-4347-af96-3e814fb0ac4b")
+	)
+	(wire
+		(pts
 			(xy 46.99 186.69) (xy 46.99 187.96)
 		)
 		(stroke
@@ -7136,6 +7369,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 119.38) (xy 96.52 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fab7dbe0-ba09-4eeb-a326-a9eb5b501b4d")
+	)
+	(wire
+		(pts
 			(xy 190.5 33.02) (xy 200.66 33.02)
 		)
 		(stroke
@@ -7203,6 +7446,16 @@
 			(justify left bottom)
 		)
 		(uuid "69ca2af5-dbcb-49d0-bf32-bad406d25868")
+	)
+	(label "SDA"
+		(at 92.71 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "713a5c21-7830-466a-a9a1-c69ed7d9c62f")
 	)
 	(label "D-"
 		(at 266.7 67.31 180)
@@ -7273,6 +7526,16 @@
 			(justify left bottom)
 		)
 		(uuid "d1a2f14b-427b-4144-bac0-4bd9f7c1fec4")
+	)
+	(label "SCL"
+		(at 92.71 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db33e413-9bbb-4244-8b12-51e623382d4d")
 	)
 	(label "BOOT"
 		(at 247.65 72.39 0)
@@ -10170,6 +10433,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 114.3 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a064e15-cb55-4a08-82d4-1e0d096ba561")
+		(property "Reference" "#PWR059"
+			(at 114.3 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 113.792 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 114.3 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cde06416-9f96-49db-b509-4254516d403a")
+		)
+		(instances
+			(project "valrob-carte-ihm-cdf-1"
+				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 190.5 40.64 0)
 		(unit 1)
@@ -10571,6 +10899,71 @@
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97f0768e-ab0d-4c99-9a73-3cf59fd13041")
+		(property "Reference" "#PWR058"
+			(at 114.3 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 117.348 127.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29c144da-a222-419d-9487-7b3644e5ff84")
+		)
+		(instances
+			(project "valrob-carte-ihm-cdf-1"
+				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -12356,6 +12749,80 @@
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Pers:HS96L03W2C03")
+		(at 104.14 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6e17898-69ba-477e-b1ec-50c925bad2b0")
+		(property "Reference" "U5"
+			(at 101.854 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HS96L03W2C03"
+			(at 103.378 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5248080.pdf"
+			(at 104.14 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.96 128x64 SSD1315 I2C LCD, OLED, Graphic RoHS"
+			(at 104.14 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d789e22a-7555-4cdc-b863-c6b42087132c")
+		)
+		(pin "4"
+			(uuid "748d6683-1ba9-4c89-8fcd-110aa91f791a")
+		)
+		(pin "2"
+			(uuid "60dd724f-c22d-4290-bc00-7435002b3c35")
+		)
+		(pin "1"
+			(uuid "ec1ce02e-6810-411c-82e4-0214b7b79b1c")
+		)
+		(instances
+			(project ""
+				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6"
+					(reference "U5")
 					(unit 1)
 				)
 			)
