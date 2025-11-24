@@ -5479,6 +5479,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 102.87) (xy 252.73 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3605fdfa-b286-49ff-9b39-5ec1a3bee4a6")
+	)
+	(wire
+		(pts
 			(xy 50.8 166.37) (xy 49.53 166.37)
 		)
 		(stroke
@@ -5616,6 +5626,16 @@
 			(type default)
 		)
 		(uuid "488a86a8-c189-4a7e-b97b-6bb8dac7c465")
+	)
+	(wire
+		(pts
+			(xy 246.38 100.33) (xy 252.73 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "488ff3bd-7469-4276-9601-e2a8e4226d5e")
 	)
 	(wire
 		(pts
@@ -5816,6 +5836,16 @@
 			(type default)
 		)
 		(uuid "6e6dc391-19c6-466e-a900-9676d82bcd12")
+	)
+	(wire
+		(pts
+			(xy 246.38 113.03) (xy 252.73 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e80ce56-4678-40f0-83c0-be67f3247cd0")
 	)
 	(wire
 		(pts
@@ -6079,6 +6109,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 107.95) (xy 252.73 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "915ee478-53eb-4393-85f1-a3cadea0ab8a")
+	)
+	(wire
+		(pts
 			(xy 55.88 161.29) (xy 52.07 161.29)
 		)
 		(stroke
@@ -6289,6 +6329,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 110.49) (xy 252.73 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b57831fc-971c-4007-9c99-78a34fd4202b")
+	)
+	(wire
+		(pts
 			(xy 46.99 186.69) (xy 44.45 186.69)
 		)
 		(stroke
@@ -6476,6 +6526,16 @@
 			(type default)
 		)
 		(uuid "dbfa265e-fe23-458e-871d-a75402fc3648")
+	)
+	(wire
+		(pts
+			(xy 246.38 105.41) (xy 252.73 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd2726d3-9490-4658-afa5-162fee6ef2af")
 	)
 	(wire
 		(pts
@@ -12481,6 +12541,109 @@
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6"
 					(reference "#PWR011")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 252.73 97.79)
+		(size 12.7 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aa7d80df-abab-4531-b4d6-bb798df60183")
+		(property "Sheetname" "Switches"
+			(at 252.73 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Switches.kicad_sch"
+			(at 252.73 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "ESW2" output
+			(at 252.73 102.87 180)
+			(uuid "4c88fc7a-8eac-449a-a4c3-a99e7fc8f91d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESW6" output
+			(at 252.73 113.03 180)
+			(uuid "75aaf973-f35e-4d3d-8c06-72a875fb0022")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESW5" output
+			(at 252.73 110.49 180)
+			(uuid "3c5417df-5aef-4cbb-95b9-13a021dc8708")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESW4" output
+			(at 252.73 107.95 180)
+			(uuid "38ee7cb4-d953-4681-a69d-a1d907e2682b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESW3" output
+			(at 252.73 105.41 180)
+			(uuid "3c217ecd-b4f1-4015-b294-115dd6a3f077")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESW1" output
+			(at 252.73 100.33 180)
+			(uuid "f1f39267-d7e0-428e-a585-e1558d8168d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "valrob-carte-ihm-cdf-1"
+				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6"
+					(page "2")
 				)
 			)
 		)
