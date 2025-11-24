@@ -3235,7 +3235,7 @@
 				)
 			)
 			(symbol "HS96L03W2C03_1_1"
-				(pin power_in line
+				(pin input line
 					(at -7.62 1.27 0)
 					(length 2.54)
 					(name "SDA"
@@ -3253,7 +3253,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin input line
 					(at -7.62 -1.27 0)
 					(length 2.54)
 					(name "SCL"
@@ -5666,10 +5666,6 @@
 		(uuid "9f3fdae0-a269-4eb0-9c1f-96ad4913de4e")
 	)
 	(no_connect
-		(at 246.38 80.01)
-		(uuid "ba273a06-7d74-42da-ae87-921a7b90c44c")
-	)
-	(no_connect
 		(at 154.94 123.19)
 		(uuid "badcf1ab-a9aa-46dc-9d78-2ea9fb808ff6")
 	)
@@ -6813,6 +6809,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 80.01) (xy 246.38 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95143645-0882-4928-b9d4-b24cf97a5033")
+	)
+	(wire
+		(pts
 			(xy 60.96 179.07) (xy 72.39 179.07)
 		)
 		(stroke
@@ -7580,6 +7586,16 @@
 			(justify right bottom)
 		)
 		(uuid "7a532766-f039-450d-ad48-512778c6b115")
+	)
+	(label "RGB_LEDS"
+		(at 256.54 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b0b3fc4-b95b-492a-8ab6-27ee40f7d1b3")
 	)
 	(label "ESP_D-"
 		(at 255.27 67.31 180)
