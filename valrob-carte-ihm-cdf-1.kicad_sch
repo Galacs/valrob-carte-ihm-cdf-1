@@ -5650,10 +5650,6 @@
 		(uuid "badcf1ab-a9aa-46dc-9d78-2ea9fb808ff6")
 	)
 	(no_connect
-		(at 246.38 82.55)
-		(uuid "d84889da-2d78-4123-b7ce-f0abad0addb2")
-	)
-	(no_connect
 		(at 246.38 74.93)
 		(uuid "dee62d58-80db-4a0e-b060-f0f5e746dc3d")
 	)
@@ -5766,6 +5762,16 @@
 			(type default)
 		)
 		(uuid "11e50b46-f3a8-41f5-a33d-a436e059ce24")
+	)
+	(wire
+		(pts
+			(xy 246.38 90.17) (xy 254 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1336ab82-a344-4039-82b8-32c1793d5fe8")
 	)
 	(wire
 		(pts
@@ -6289,6 +6295,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 82.55) (xy 254 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e675f2a-c48f-4d9e-92f0-6f6d2b066132")
+	)
+	(wire
+		(pts
 			(xy 142.24 55.88) (xy 142.24 57.15)
 		)
 		(stroke
@@ -6316,6 +6332,16 @@
 			(type default)
 		)
 		(uuid "644c4a28-6cbe-432c-975f-826f9139b167")
+	)
+	(wire
+		(pts
+			(xy 246.38 85.09) (xy 254 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65c236e8-e288-4d62-87f2-dbeb72d87951")
 	)
 	(wire
 		(pts
@@ -7326,6 +7352,16 @@
 			(type default)
 		)
 		(uuid "ee367557-c4b9-4bcd-9c9b-2b116dc3a3d5")
+	)
+	(wire
+		(pts
+			(xy 246.38 87.63) (xy 254 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee800450-b203-40f1-b3f7-02c37b9f0617")
 	)
 	(wire
 		(pts
@@ -10106,6 +10142,82 @@
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 259.08 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6295aa54-48ae-47d4-a1b3-5fd42b08492e")
+		(property "Reference" "J5"
+			(at 260.35 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 261.62 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 259.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 259.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "eebaf8d9-b477-448b-ad47-60b589bea6b5")
+		)
+		(pin "3"
+			(uuid "8c91f9b5-2ebf-49c3-9afd-25da899ebc64")
+		)
+		(pin "2"
+			(uuid "5e8323af-8c33-41e2-9bc9-6832434f5c09")
+		)
+		(pin "1"
+			(uuid "d7d5f487-f746-4430-9214-7bb103b1da1d")
+		)
+		(instances
+			(project "valrob-carte-ihm-cdf-1"
+				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -13537,7 +13649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "+VBATT"
 			(at 121.412 136.906 0)
 			(effects
 				(font
