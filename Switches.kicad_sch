@@ -2938,7 +2938,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08151f67-357d-4758-9eef-494fb687c08f")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR056"
 			(at 143.51 140.97 0)
 			(effects
 				(font
@@ -2988,7 +2988,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "#PWR037")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -3068,7 +3068,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10a29a2d-4711-4715-820a-22eb63cc2dc3")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR057"
 			(at 143.51 162.56 0)
 			(effects
 				(font
@@ -3118,7 +3118,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "#PWR029")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3133,7 +3133,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17611a1c-6b92-416c-a5c2-beb8cf52ed9d")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR041"
 			(at 114.3 146.05 0)
 			(effects
 				(font
@@ -3183,7 +3183,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "#PWR032")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -3199,7 +3199,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a6f6d52-513d-4025-beb6-0473914e4a8c")
-		(property "Reference" "SW5"
+		(property "Reference" "SW7"
 			(at 129.032 86.36 0)
 			(effects
 				(font
@@ -3288,7 +3288,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "SW5")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -3303,7 +3303,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b6daaf6-c090-43bb-a4ad-c17b5f8a1857")
-		(property "Reference" "D8"
+		(property "Reference" "D12"
 			(at 120.904 85.09 90)
 			(effects
 				(font
@@ -3394,7 +3394,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "D8")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -3409,7 +3409,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f33b08f-c2be-4591-9d15-b84152badb67")
-		(property "Reference" "TP1"
+		(property "Reference" "TP6"
 			(at 137.668 98.552 0)
 			(effects
 				(font
@@ -3461,7 +3461,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "TP1")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -3476,7 +3476,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "241ee6c6-c95f-4957-aa89-5e4ce5aa1f84")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR045"
 			(at 125.73 140.97 0)
 			(effects
 				(font
@@ -3526,7 +3526,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "#PWR035")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -3541,7 +3541,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2947d1e6-30a7-4f13-a375-79ce90a24839")
-		(property "Reference" "R19"
+		(property "Reference" "R11"
 			(at 121.412 60.706 90)
 			(effects
 				(font
@@ -3595,7 +3595,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "R19")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3610,7 +3610,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2994fb87-86b0-4114-87ef-c69218522b70")
-		(property "Reference" "R11"
+		(property "Reference" "R15"
 			(at 121.412 145.796 90)
 			(effects
 				(font
@@ -3664,7 +3664,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "R11")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -3679,7 +3679,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a9eb8a9-093a-4f46-a6c0-554a43b2e26a")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR040"
 			(at 114.3 124.46 0)
 			(effects
 				(font
@@ -3729,7 +3729,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "#PWR034")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -3744,7 +3744,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c7ac6e4-8bf7-42a7-a064-33fd19b9f474")
-		(property "Reference" "R13"
+		(property "Reference" "R20"
 			(at 137.16 124.46 90)
 			(effects
 				(font
@@ -3796,7 +3796,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "R13")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -3811,7 +3811,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2dd20c8c-c3f7-4fdb-beaa-0838191f66dd")
-		(property "Reference" "R17"
+		(property "Reference" "R19"
 			(at 137.16 104.14 90)
 			(effects
 				(font
@@ -3863,7 +3863,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "R17")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -3878,7 +3878,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38fe5d58-ad80-4715-85c1-92ab4ce4d998")
-		(property "Reference" "C12"
+		(property "Reference" "C8"
 			(at 136.906 42.418 0)
 			(effects
 				(font
@@ -3932,7 +3932,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "C12")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -3947,7 +3947,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a01d203-8985-47b5-97d4-e5a27deb6e99")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 121.412 124.206 90)
 			(effects
 				(font
@@ -4001,7 +4001,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4016,7 +4016,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b5888fd-12cb-447d-b1cd-028eaaa75283")
-		(property "Reference" "D9"
+		(property "Reference" "D15"
 			(at 132.842 107.442 90)
 			(effects
 				(font
@@ -4107,7 +4107,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "D9")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -4122,7 +4122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43d0d73b-986b-4805-a5ad-a6ef7e17208d")
-		(property "Reference" "R18"
+		(property "Reference" "R10"
 			(at 121.412 39.116 90)
 			(effects
 				(font
@@ -4176,7 +4176,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "R18")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4192,7 +4192,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44369b60-ae6a-471c-b57e-de0df0cd20e2")
-		(property "Reference" "SW7"
+		(property "Reference" "SW5"
 			(at 129.032 43.18 0)
 			(effects
 				(font
@@ -4281,7 +4281,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "SW7")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -4296,7 +4296,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "481a0727-c47c-4409-8e0e-66480a60bfb9")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR044"
 			(at 125.73 99.06 0)
 			(effects
 				(font
@@ -4346,7 +4346,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "#PWR040")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -4361,7 +4361,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4890952d-bdac-4801-9d74-ede7b7bd16ea")
-		(property "Reference" "TP5"
+		(property "Reference" "TP7"
 			(at 160.782 96.52 0)
 			(effects
 				(font
@@ -4413,7 +4413,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "TP5")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -4428,7 +4428,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c3aeb42-6746-4b13-bce4-af9f75c90042")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR049"
 			(at 130.81 99.06 0)
 			(effects
 				(font
@@ -4478,7 +4478,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "#PWR042")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -4493,7 +4493,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e23e32e-f17e-4c80-b9b6-37501086db04")
-		(property "Reference" "R16"
+		(property "Reference" "R18"
 			(at 137.16 82.55 90)
 			(effects
 				(font
@@ -4545,7 +4545,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "R16")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -4560,7 +4560,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "551abcc7-1935-49dc-8aa4-533e09319cc8")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR036"
 			(at 114.3 39.37 0)
 			(effects
 				(font
@@ -4610,7 +4610,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "#PWR046")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -4625,7 +4625,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a165e7c-efcd-4cb1-ae5c-7bcc943f73eb")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR054"
 			(at 143.51 99.06 0)
 			(effects
 				(font
@@ -4675,7 +4675,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "#PWR044")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -4760,7 +4760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cf82c62-2bbe-4329-9525-cbe7fdc3e721")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 153.67 134.62 0)
 			(effects
 				(font
@@ -4848,7 +4848,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -4863,7 +4863,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6dd77835-5ccd-4de2-a355-c34e53e6588c")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR035"
 			(at 113.03 118.11 0)
 			(effects
 				(font
@@ -4913,7 +4913,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "#PWR036")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -4929,7 +4929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71b79cc5-520c-46bc-bc8c-aac132f8d4c4")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 198.12 90.1699 0)
 			(effects
 				(font
@@ -5019,7 +5019,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "U4")
+					(reference "U5")
 					(unit 7)
 				)
 			)
@@ -5099,7 +5099,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f1e62db-0759-442c-acce-390bab64d110")
-		(property "Reference" "D7"
+		(property "Reference" "D13"
 			(at 120.904 127 90)
 			(effects
 				(font
@@ -5190,7 +5190,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "D7")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -5206,7 +5206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83a065fc-f6d1-4a82-bf50-d44de336c967")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 153.67 27.94 0)
 			(effects
 				(font
@@ -5294,7 +5294,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "U4")
+					(reference "U5")
 					(unit 6)
 				)
 			)
@@ -5310,7 +5310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "848736f6-95d3-4cf0-8671-2957513436d4")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 153.67 71.12 0)
 			(effects
 				(font
@@ -5398,7 +5398,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "U4")
+					(reference "U5")
 					(unit 4)
 				)
 			)
@@ -5413,7 +5413,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8509f658-e980-46a0-8b09-a7a0bc986b6f")
-		(property "Reference" "R15"
+		(property "Reference" "R13"
 			(at 121.412 103.886 90)
 			(effects
 				(font
@@ -5467,7 +5467,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "R15")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -5483,7 +5483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85c2fbce-17a6-4759-a556-b305e41f39c4")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 153.67 92.71 0)
 			(effects
 				(font
@@ -5571,7 +5571,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "U4")
+					(reference "U5")
 					(unit 3)
 				)
 			)
@@ -5655,7 +5655,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "931d3de9-bbdd-4c4c-a4a8-c5f4eb87eb4b")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR046"
 			(at 125.73 162.56 0)
 			(effects
 				(font
@@ -5705,7 +5705,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "#PWR033")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -5720,7 +5720,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96fc9616-c798-4809-8493-8e79b0d96308")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR050"
 			(at 130.81 120.65 0)
 			(effects
 				(font
@@ -5770,7 +5770,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "#PWR041")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -5785,7 +5785,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a30a94ba-204a-4e42-8474-b1b15850f1f9")
-		(property "Reference" "C13"
+		(property "Reference" "C9"
 			(at 136.906 64.008 0)
 			(effects
 				(font
@@ -5839,7 +5839,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "C13")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -5854,7 +5854,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "acbdbd65-73fe-43ba-98b9-726ad2689ede")
-		(property "Reference" "C8"
+		(property "Reference" "C12"
 			(at 136.906 127.508 0)
 			(effects
 				(font
@@ -5908,7 +5908,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "C8")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -5923,7 +5923,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "acd4fb69-91ad-420e-a197-643a357b7986")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR043"
 			(at 125.73 77.47 0)
 			(effects
 				(font
@@ -5973,7 +5973,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "#PWR049")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -5989,7 +5989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad021896-b77b-4e59-b60f-5474d52b4514")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 153.67 49.53 0)
 			(effects
 				(font
@@ -6077,7 +6077,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "U4")
+					(reference "U5")
 					(unit 5)
 				)
 			)
@@ -6092,7 +6092,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "adefe593-e303-4a68-8270-108d16941e97")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR047"
 			(at 130.81 55.88 0)
 			(effects
 				(font
@@ -6142,7 +6142,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "#PWR050")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -6157,7 +6157,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "adfa6e4b-b299-4ee7-a0ff-93c14c038bf3")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR059"
 			(at 191.77 113.03 0)
 			(effects
 				(font
@@ -6207,7 +6207,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "#PWR055")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -6222,7 +6222,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b00065f9-b5f4-412e-b4ad-a7b388755ef1")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR055"
 			(at 143.51 120.65 0)
 			(effects
 				(font
@@ -6272,7 +6272,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "#PWR045")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -6287,7 +6287,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5d2833c-bcec-459e-a7a8-432843f3edcb")
-		(property "Reference" "TP2"
+		(property "Reference" "TP5"
 			(at 123.698 98.552 0)
 			(effects
 				(font
@@ -6339,7 +6339,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "TP2")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -6354,7 +6354,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8532dcd-d642-463d-ac5e-f50b3d0cad92")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR048"
 			(at 130.81 77.47 0)
 			(effects
 				(font
@@ -6404,7 +6404,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "#PWR051")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -6419,7 +6419,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd91bbc1-d200-4171-9831-00738603a5ce")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR051"
 			(at 130.81 162.56 0)
 			(effects
 				(font
@@ -6469,7 +6469,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "#PWR028")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -6549,7 +6549,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1afbf45-c493-4d71-a40e-f471179be7c0")
-		(property "Reference" "R21"
+		(property "Reference" "R17"
 			(at 137.16 60.96 90)
 			(effects
 				(font
@@ -6601,7 +6601,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "R21")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -6616,7 +6616,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c43c69bc-69a3-4a37-9b2c-652ac73a6a13")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR037"
 			(at 114.3 60.96 0)
 			(effects
 				(font
@@ -6666,7 +6666,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "#PWR047")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -6681,7 +6681,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c798bf60-f794-4b32-b212-7bd1626a56b1")
-		(property "Reference" "R20"
+		(property "Reference" "R16"
 			(at 137.16 39.37 90)
 			(effects
 				(font
@@ -6733,7 +6733,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "R20")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -6814,7 +6814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce89539e-6dfb-4312-8338-6856b7ca334d")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR058"
 			(at 191.77 80.01 0)
 			(effects
 				(font
@@ -6864,7 +6864,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "#PWR054")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -6984,7 +6984,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d394a71b-d626-413a-90b7-b5f8ae1000ed")
-		(property "Reference" "SW10"
+		(property "Reference" "SW4"
 			(at 119.38 115.316 0)
 			(effects
 				(font
@@ -7040,7 +7040,7 @@
 		(instances
 			(project ""
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "SW10")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -7055,7 +7055,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3b292f4-e3bf-4cfa-8d58-6f86f07916d1")
-		(property "Reference" "R10"
+		(property "Reference" "R21"
 			(at 137.16 146.05 90)
 			(effects
 				(font
@@ -7107,7 +7107,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "R10")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -7123,7 +7123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db335452-ffca-475c-8539-42c72f545097")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 153.67 113.03 0)
 			(effects
 				(font
@@ -7211,7 +7211,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "U4")
+					(reference "U5")
 					(unit 2)
 				)
 			)
@@ -7332,7 +7332,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2eefb44-bb80-47a5-a909-b6a0c369d24f")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR042"
 			(at 125.73 55.88 0)
 			(effects
 				(font
@@ -7382,7 +7382,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "#PWR048")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -7397,7 +7397,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f16a2eca-4b88-4f36-96fb-224603c12bc2")
-		(property "Reference" "SW4"
+		(property "Reference" "SW8"
 			(at 133.604 150.622 90)
 			(effects
 				(font
@@ -7450,7 +7450,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "SW4")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -7465,7 +7465,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3d6808f-70fe-4ddb-9eb0-f64d278c0bd1")
-		(property "Reference" "R14"
+		(property "Reference" "R12"
 			(at 121.412 82.296 90)
 			(effects
 				(font
@@ -7519,7 +7519,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "R14")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -7534,7 +7534,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f66667ff-428f-42f9-9996-6294de91db37")
-		(property "Reference" "C9"
+		(property "Reference" "C13"
 			(at 136.906 149.098 0)
 			(effects
 				(font
@@ -7588,7 +7588,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "C9")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -7709,7 +7709,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd9d81df-ecb0-4ae5-bbe2-7ca58dda5c81")
-		(property "Reference" "D6"
+		(property "Reference" "D14"
 			(at 120.904 148.59 90)
 			(effects
 				(font
@@ -7800,7 +7800,7 @@
 		(instances
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "D6")
+					(reference "D14")
 					(unit 1)
 				)
 			)
