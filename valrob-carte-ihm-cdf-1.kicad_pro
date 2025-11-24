@@ -425,6 +425,12 @@
         },
         {
           "group_by": false,
+          "label": "Manufacturer Part Number",
+          "name": "Manufacturer Part Number",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "JLCPCB Part #",
           "name": "JLCPCB Part #",
           "show": true
@@ -434,12 +440,6 @@
           "label": "Manufacturer",
           "name": "Manufacturer",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer Part Number",
-          "name": "Manufacturer Part Number",
-          "show": false
         },
         {
           "group_by": false,
@@ -457,7 +457,7 @@
           "group_by": false,
           "label": "Basic",
           "name": "Basic",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,

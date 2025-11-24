@@ -7978,7 +7978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Uniroyal Elec"
 			(at 45.72 168.91 90)
 			(effects
 				(font
@@ -7987,7 +7987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF5101T5E"
+		(property "Manufacturer Part Number" "0402WGF5101TCE"
 			(at 45.72 168.91 90)
 			(effects
 				(font
@@ -8005,7 +8005,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C25905"
 			(at 45.72 168.91 90)
 			(effects
 				(font
@@ -8626,6 +8626,42 @@
 				(hide yes)
 			)
 		)
+		(property "Basic" "X"
+			(at 35.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C22371521"
+			(at 35.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Worldsemi"
+			(at 35.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "WS2812B-HS01/W"
+			(at 35.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "b6c4696e-2296-4227-a6a8-830d825d7ad8")
 		)
@@ -8709,7 +8745,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C25092"
 			(at 259.08 67.31 90)
 			(effects
 				(font
@@ -8718,7 +8754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Uniroyal Elec"
 			(at 259.08 67.31 90)
 			(effects
 				(font
@@ -8727,7 +8763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF220JT5E"
+		(property "Manufacturer Part Number" "0402WGF220JTCE"
 			(at 259.08 67.31 90)
 			(effects
 				(font
@@ -8798,6 +8834,42 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 52.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "X"
+			(at 52.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C22371521"
+			(at 52.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Worldsemi"
+			(at 52.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "WS2812B-HS01/W"
 			(at 52.07 99.06 0)
 			(effects
 				(font
@@ -9126,7 +9198,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C25905"
 			(at 64.77 130.81 90)
 			(effects
 				(font
@@ -9135,7 +9207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Uniroyal Elec"
 			(at 64.77 130.81 90)
 			(effects
 				(font
@@ -9144,7 +9216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF5101T5E"
+		(property "Manufacturer Part Number" "0402WGF5101TCE"
 			(at 64.77 130.81 90)
 			(effects
 				(font
@@ -9280,6 +9352,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 25.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 25.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C59461"
+			(at 25.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 25.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10A226MQ8NRNC"
 			(at 25.4 135.89 0)
 			(effects
 				(font
@@ -9429,7 +9537,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C25092"
 			(at 259.08 64.77 90)
 			(effects
 				(font
@@ -9438,7 +9546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Uniroyal Elec"
 			(at 259.08 64.77 90)
 			(effects
 				(font
@@ -9447,7 +9555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF220JT5E"
+		(property "Manufacturer Part Number" "0402WGF220JTCE"
 			(at 259.08 64.77 90)
 			(effects
 				(font
@@ -9590,7 +9698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Uniroyal Elec"
 			(at 45.72 166.37 90)
 			(effects
 				(font
@@ -9599,7 +9707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF5101T5E"
+		(property "Manufacturer Part Number" "0402WGF5101TCE"
 			(at 45.72 166.37 90)
 			(effects
 				(font
@@ -9617,7 +9725,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C25905"
 			(at 45.72 166.37 90)
 			(effects
 				(font
@@ -10158,6 +10266,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 57.15 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 57.15 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C59461"
+			(at 57.15 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 57.15 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10A226MQ8NRNC"
 			(at 57.15 135.89 0)
 			(effects
 				(font
@@ -10773,7 +10917,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C1525"
 			(at 190.5 40.64 0)
 			(effects
 				(font
@@ -10782,7 +10926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics "
 			(at 190.5 40.64 0)
 			(effects
 				(font
@@ -10791,7 +10935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
+		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
 			(at 190.5 40.64 0)
 			(effects
 				(font
@@ -10909,7 +11053,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 99.822 147.32 90)
 			(effects
 				(font
@@ -10945,7 +11089,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C4177"
 			(at 101.6 147.32 0)
 			(effects
 				(font
@@ -10954,7 +11098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Uniroyal Elec"
 			(at 101.6 147.32 0)
 			(effects
 				(font
@@ -10963,7 +11107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10A226MQ8NRNC"
+		(property "Manufacturer Part Number" "0603WAF1801T5E"
 			(at 101.6 147.32 0)
 			(effects
 				(font
@@ -11301,7 +11445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics "
 			(at 137.16 57.15 0)
 			(effects
 				(font
@@ -11310,7 +11454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10A105KB8NNNC"
+		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
 			(at 137.16 57.15 0)
 			(effects
 				(font
@@ -11328,7 +11472,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C52923"
 			(at 137.16 57.15 0)
 			(effects
 				(font
@@ -11399,6 +11543,42 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 68.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "X"
+			(at 68.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C22371521"
+			(at 68.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Worldsemi"
+			(at 68.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "WS2812B-HS01/W"
 			(at 68.58 99.06 0)
 			(effects
 				(font
@@ -11594,7 +11774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Uniroyal Elec"
 			(at 257.81 72.39 0)
 			(effects
 				(font
@@ -11603,7 +11783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF1002T5E"
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
 			(at 257.81 72.39 0)
 			(effects
 				(font
@@ -11621,7 +11801,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C25744"
 			(at 257.81 72.39 0)
 			(effects
 				(font
@@ -11698,7 +11878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Uniroyal Elec"
 			(at 115.57 142.24 0)
 			(effects
 				(font
@@ -11707,7 +11887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF1002T5E"
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
 			(at 115.57 142.24 0)
 			(effects
 				(font
@@ -11725,7 +11905,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C25744"
 			(at 115.57 142.24 0)
 			(effects
 				(font
@@ -12045,7 +12225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "Y"
 			(at 92.71 147.32 0)
 			(effects
 				(font
@@ -12054,7 +12234,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C1525"
 			(at 92.71 147.32 0)
 			(effects
 				(font
@@ -12063,7 +12243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics "
 			(at 92.71 147.32 0)
 			(effects
 				(font
@@ -12072,7 +12252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
 			(at 92.71 147.32 0)
 			(effects
 				(font
@@ -12287,7 +12467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "Y"
 			(at 182.88 40.64 0)
 			(effects
 				(font
@@ -12296,7 +12476,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C59461"
 			(at 182.88 40.64 0)
 			(effects
 				(font
@@ -12305,7 +12485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics "
 			(at 182.88 40.64 0)
 			(effects
 				(font
@@ -12314,7 +12494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL10A226MQ8NRNC"
 			(at 182.88 40.64 0)
 			(effects
 				(font
@@ -12392,7 +12572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Uniroyal Elec"
 			(at 142.24 52.07 0)
 			(effects
 				(font
@@ -12401,7 +12581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF1002T5E"
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
 			(at 142.24 52.07 0)
 			(effects
 				(font
@@ -12419,7 +12599,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C25744"
 			(at 142.24 52.07 0)
 			(effects
 				(font
@@ -13038,7 +13218,7 @@
 		(at 104.14 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c6e17898-69ba-477e-b1ec-50c925bad2b0")
@@ -13325,6 +13505,42 @@
 			)
 		)
 		(property "Description" "1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
+			(at 39.37 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "X"
+			(at 39.37 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C485517"
+			(at 39.37 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 39.37 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TLV75733PDBVR"
 			(at 39.37 133.35 0)
 			(effects
 				(font
