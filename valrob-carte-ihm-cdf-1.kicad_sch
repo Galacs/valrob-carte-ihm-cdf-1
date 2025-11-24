@@ -2635,14 +2635,14 @@
 				(pin bidirectional line
 					(at 45.72 12.7 180)
 					(length 2.54)
-					(name "GPIO14/TOUCH14/ADC2_CH3/FSPIWP/FSPIDQS/SUBSPIWP"
+					(name "GPIO45"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "22"
+					(number "26"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2923,24 +2923,6 @@
 				(pin bidirectional line
 					(at 45.72 -27.94 180)
 					(length 2.54)
-					(name "GPIO45"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 45.72 -30.48 180)
-					(length 2.54)
 					(name "GPIO48/SPICLK_N/SUBSPICLK_N_DIFF"
 						(effects
 							(font
@@ -2957,7 +2939,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 45.72 -33.02 180)
+					(at 45.72 -30.48 180)
 					(length 2.54)
 					(name "GPIO47/SPICLK_P/SUBSPICLK_P_DIFF"
 						(effects
@@ -2975,7 +2957,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 45.72 -35.56 180)
+					(at 45.72 -33.02 180)
 					(length 2.54)
 					(name "GPIO21"
 						(effects
@@ -2985,6 +2967,24 @@
 						)
 					)
 					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 45.72 -35.56 180)
+					(length 2.54)
+					(name "GPIO14/TOUCH14/ADC2_CH3/FSPIWP/FSPIDQS/SUBSPIWP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
 						(effects
 							(font
 								(size 1.27 1.27)
