@@ -2198,8 +2198,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -43.18 43.18 0)
+			(property "Reference" "U4"
+				(at 2.1433 43.18 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2208,7 +2208,7 @@
 				)
 			)
 			(property "Value" "ESP32-S3-WROOM-1"
-				(at -43.18 40.64 0)
+				(at 2.1433 40.64 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2887,14 +2887,14 @@
 				(pin bidirectional line
 					(at 45.72 -22.86 180)
 					(length 2.54)
-					(name "GPIO21"
+					(name "GPIO46"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "23"
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2941,14 +2941,14 @@
 				(pin bidirectional line
 					(at 45.72 -30.48 180)
 					(length 2.54)
-					(name "GPIO46"
+					(name "GPIO48/SPICLK_N/SUBSPICLK_N_DIFF"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "16"
+					(number "25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2977,14 +2977,14 @@
 				(pin bidirectional line
 					(at 45.72 -35.56 180)
 					(length 2.54)
-					(name "GPIO48/SPICLK_N/SUBSPICLK_N_DIFF"
+					(name "GPIO21"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "25"
+					(number "23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5211,8 +5211,8 @@
 		(uuid 730f3e51-aab3-4048-b6a4-1ffc8c548782)
 	)
 	(rectangle
-		(start 248.92 116.84)
-		(end 270.51 134.62)
+		(start 250.19 116.84)
+		(end 271.78 134.62)
 		(stroke
 			(width 0)
 			(type dash)
@@ -5320,7 +5320,7 @@
 	)
 	(text "DIP"
 		(exclude_from_sim no)
-		(at 252.222 133.096 0)
+		(at 253.492 133.096 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -5494,7 +5494,7 @@
 		(uuid "64f8cfab-ede9-490c-b333-4154fbce288d")
 	)
 	(junction
-		(at 267.97 128.27)
+		(at 269.24 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70df52c4-4f2e-4b41-a612-07f1830475fd")
@@ -5596,7 +5596,7 @@
 		(uuid "bfe50099-1258-4659-8bb1-27c3e8e3e289")
 	)
 	(junction
-		(at 267.97 125.73)
+		(at 269.24 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbe164cd-6b67-4cf8-8caa-03d8f8fb91c8")
@@ -5648,10 +5648,6 @@
 		(uuid "1e469990-f814-4b16-8fda-dba2aeeedca6")
 	)
 	(no_connect
-		(at 246.38 118.11)
-		(uuid "3bb7d299-cce4-4a74-bf28-da3551177185")
-	)
-	(no_connect
 		(at 154.94 128.27)
 		(uuid "3e9d6054-4076-48a7-b145-378162aa5fab")
 	)
@@ -5679,13 +5675,9 @@
 		(at 246.38 74.93)
 		(uuid "dee62d58-80db-4a0e-b060-f0f5e746dc3d")
 	)
-	(no_connect
-		(at 246.38 115.57)
-		(uuid "f834ee32-e847-4285-9fec-d73a0a1a597b")
-	)
 	(wire
 		(pts
-			(xy 246.38 125.73) (xy 251.46 125.73)
+			(xy 246.38 125.73) (xy 252.73 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5855,7 +5847,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 129.54) (xy 267.97 128.27)
+			(xy 269.24 129.54) (xy 269.24 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6035,6 +6027,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 120.65) (xy 252.73 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33492202-e3ea-4516-bc4a-044cabceec9c")
+	)
+	(wire
+		(pts
 			(xy 53.34 130.81) (xy 57.15 130.81)
 		)
 		(stroke
@@ -6145,7 +6147,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 128.27) (xy 251.46 128.27)
+			(xy 246.38 128.27) (xy 252.73 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6325,6 +6327,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 123.19) (xy 267.97 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b7c0da0-115e-4d1a-b120-46543f551186")
+	)
+	(wire
+		(pts
 			(xy 52.07 90.17) (xy 68.58 90.17)
 		)
 		(stroke
@@ -6415,7 +6427,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 125.73) (xy 267.97 128.27)
+			(xy 269.24 125.73) (xy 269.24 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6435,7 +6447,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 125.73) (xy 267.97 125.73)
+			(xy 267.97 125.73) (xy 269.24 125.73)
 		)
 		(stroke
 			(width 0)
@@ -6542,16 +6554,6 @@
 			(type default)
 		)
 		(uuid "71a6c574-5edd-4026-84a0-68e7482f333a")
-	)
-	(wire
-		(pts
-			(xy 246.38 120.65) (xy 251.46 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72ab7a06-2cb7-4462-85f7-3def854cf010")
 	)
 	(wire
 		(pts
@@ -6685,7 +6687,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 123.19) (xy 251.46 123.19)
+			(xy 246.38 123.19) (xy 252.73 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6712,16 +6714,6 @@
 			(type default)
 		)
 		(uuid "8aef512d-bbcd-4ec0-8e1c-a9edcd88d143")
-	)
-	(wire
-		(pts
-			(xy 267.97 123.19) (xy 266.7 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b5e3630-c62e-4355-af53-d30bc097b996")
 	)
 	(wire
 		(pts
@@ -6985,7 +6977,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 128.27) (xy 266.7 128.27)
+			(xy 269.24 128.27) (xy 267.97 128.27)
 		)
 		(stroke
 			(width 0)
@@ -7175,7 +7167,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 125.73) (xy 267.97 123.19)
+			(xy 269.24 125.73) (xy 269.24 123.19)
 		)
 		(stroke
 			(width 0)
@@ -7212,16 +7204,6 @@
 			(type default)
 		)
 		(uuid "d39b12b4-0448-4e62-bd28-3ef36a6d2523")
-	)
-	(wire
-		(pts
-			(xy 267.97 120.65) (xy 266.7 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d71a4ef7-1d4d-4d2f-8f7b-8ed89fe81655")
 	)
 	(wire
 		(pts
@@ -11610,7 +11592,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x04")
-		(at 259.08 125.73 0)
+		(at 260.35 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -11618,7 +11600,7 @@
 		(dnp no)
 		(uuid "9f45aead-0e93-44a2-ae5c-e383b3048b13")
 		(property "Reference" "SW3"
-			(at 258.318 132.588 0)
+			(at 259.588 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11626,7 +11608,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x04"
-			(at 258.572 116.84 0)
+			(at 259.842 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11635,7 +11617,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx04_Slide_9.78x12.34mm_W7.62mm_P2.54mm"
-			(at 259.08 125.73 0)
+			(at 260.35 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11644,7 +11626,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 259.08 125.73 0)
+			(at 260.35 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11653,7 +11635,7 @@
 			)
 		)
 		(property "Description" "4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 259.08 125.73 0)
+			(at 260.35 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11662,7 +11644,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 259.08 125.73 0)
+			(at 260.35 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11671,7 +11653,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 259.08 125.73 0)
+			(at 260.35 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11680,7 +11662,7 @@
 			)
 		)
 		(property "Basic" ""
-			(at 259.08 125.73 0)
+			(at 260.35 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13149,7 +13131,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 267.97 129.54 0)
+		(at 269.24 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13157,7 +13139,7 @@
 		(dnp no)
 		(uuid "c621e1d6-9a76-49b9-8bf1-06347717530f")
 		(property "Reference" "#PWR033"
-			(at 267.97 135.89 0)
+			(at 269.24 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13166,7 +13148,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 265.938 132.334 0)
+			(at 267.208 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13175,7 +13157,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 129.54 0)
+			(at 269.24 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13184,7 +13166,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 129.54 0)
+			(at 269.24 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13193,7 +13175,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 267.97 129.54 0)
+			(at 269.24 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)

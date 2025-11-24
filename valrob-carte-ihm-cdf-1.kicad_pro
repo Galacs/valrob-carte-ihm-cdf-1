@@ -517,31 +517,25 @@
       {
         "name": "GND",
         "pcb_color": "rgb(132, 132, 132)",
-        "priority": 2,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
-        "name": "PWM",
-        "pcb_color": "rgb(0, 194, 194)",
+        "name": "I2C",
+        "pcb_color": "rgb(255, 153, 0)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "PWR",
         "pcb_color": "rgb(255, 3, 17)",
-        "priority": 5,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "name": "SPI",
-        "pcb_color": "rgb(255, 153, 0)",
-        "priority": 1,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "UART",
         "pcb_color": "rgb(22, 5, 255)",
-        "priority": 4,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
@@ -549,7 +543,7 @@
         "diff_pair_width": 0.3,
         "name": "USB",
         "pcb_color": "rgb(34, 255, 22)",
-        "priority": 3,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
@@ -588,20 +582,12 @@
         "pattern": "/D+"
       },
       {
-        "netclass": "SPI",
-        "pattern": "/MOSI"
+        "netclass": "I2C",
+        "pattern": "/SCL"
       },
       {
-        "netclass": "SPI",
-        "pattern": "/SCLK"
-      },
-      {
-        "netclass": "SPI",
-        "pattern": "/MISO"
-      },
-      {
-        "netclass": "PWM",
-        "pattern": "*/EN*"
+        "netclass": "I2C",
+        "pattern": "/SDA"
       }
     ]
   },
