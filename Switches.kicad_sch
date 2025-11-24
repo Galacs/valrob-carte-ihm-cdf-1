@@ -2995,6 +2995,146 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74HC14")
+		(at 153.67 121.92 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0960e994-89ae-42a7-a755-894a4a2a7ca7")
+		(property "Reference" "U5"
+			(at 153.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC14"
+			(at 153.67 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 153.67 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+			(at 153.67 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex inverter schmitt trigger"
+			(at 153.67 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 153.67 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5605"
+			(at 153.67 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 153.67 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "74HC14D,653"
+			(at 153.67 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "10144067-c688-4729-9c25-62f5410d69c7")
+		)
+		(pin "13"
+			(uuid "9a317020-2711-4145-b48d-f91d7bb7599a")
+		)
+		(pin "14"
+			(uuid "05501ffc-f57f-4a8e-8a2b-53446004b457")
+		)
+		(pin "5"
+			(uuid "3dddc14c-14dc-4ad4-b420-cb2398e1a8cf")
+		)
+		(pin "7"
+			(uuid "db15fc96-d76c-43b8-85c8-66791fb59e64")
+		)
+		(pin "11"
+			(uuid "7c7a6073-d629-493e-a009-7d3f93b47037")
+		)
+		(pin "12"
+			(uuid "eee680aa-73e1-417d-a2b0-9bb6193e3d5f")
+		)
+		(pin "6"
+			(uuid "50a462ec-5b9e-459f-99e9-b4242023c41f")
+		)
+		(pin "9"
+			(uuid "0cacabe0-12f4-4883-9ad6-13b3e79297a3")
+		)
+		(pin "4"
+			(uuid "dc1a0e65-71bd-46b7-a496-046cb309fd8a")
+		)
+		(pin "3"
+			(uuid "3c4dacff-25c8-4a53-9c1b-8d52e07a956b")
+		)
+		(pin "2"
+			(uuid "200609a3-7b31-4b03-a66b-baede74dcd76")
+		)
+		(pin "1"
+			(uuid "4b0aea2a-a03c-4b03-ae27-021b954e74c5")
+		)
+		(pin "10"
+			(uuid "aee5ecd6-a521-41f1-ad3a-76670f6440b4")
+		)
+		(instances
+			(project "valrob-carte-ihm-cdf-1"
+				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
+					(reference "U5")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 143.51 71.12 0)
 		(unit 1)
@@ -4905,6 +5045,286 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74HC14")
+		(at 153.67 58.42 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61f14d53-d59e-4991-8444-3f5be36a9365")
+		(property "Reference" "U5"
+			(at 153.67 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC14"
+			(at 153.67 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 153.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+			(at 153.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex inverter schmitt trigger"
+			(at 153.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 153.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5605"
+			(at 153.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 153.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "74HC14D,653"
+			(at 153.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "10144067-c688-4729-9c25-62f5410d69ca")
+		)
+		(pin "13"
+			(uuid "9a317020-2711-4145-b48d-f91d7bb7599d")
+		)
+		(pin "14"
+			(uuid "05501ffc-f57f-4a8e-8a2b-53446004b45a")
+		)
+		(pin "5"
+			(uuid "cc8f12b7-9230-4c37-b868-9636bb822249")
+		)
+		(pin "7"
+			(uuid "db15fc96-d76c-43b8-85c8-66791fb59e67")
+		)
+		(pin "11"
+			(uuid "bde863d8-aab7-414a-b854-e4dc74abd243")
+		)
+		(pin "12"
+			(uuid "eee680aa-73e1-417d-a2b0-9bb6193e3d62")
+		)
+		(pin "6"
+			(uuid "f5f1db3a-e134-4a43-b18b-bda1fc7575dc")
+		)
+		(pin "9"
+			(uuid "0cacabe0-12f4-4883-9ad6-13b3e79297a6")
+		)
+		(pin "4"
+			(uuid "dc1a0e65-71bd-46b7-a496-046cb309fd8d")
+		)
+		(pin "3"
+			(uuid "3c4dacff-25c8-4a53-9c1b-8d52e07a956e")
+		)
+		(pin "2"
+			(uuid "200609a3-7b31-4b03-a66b-baede74dcd79")
+		)
+		(pin "1"
+			(uuid "4b0aea2a-a03c-4b03-ae27-021b954e74c8")
+		)
+		(pin "10"
+			(uuid "0f290708-e922-412f-843b-73b289b50538")
+		)
+		(instances
+			(project "valrob-carte-ihm-cdf-1"
+				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
+					(reference "U5")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC14")
+		(at 153.67 101.6 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69249365-473c-40e1-88c4-6d470ed71a55")
+		(property "Reference" "U5"
+			(at 153.67 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC14"
+			(at 153.67 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 153.67 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+			(at 153.67 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex inverter schmitt trigger"
+			(at 153.67 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 153.67 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5605"
+			(at 153.67 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 153.67 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "74HC14D,653"
+			(at 153.67 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "10144067-c688-4729-9c25-62f5410d69c8")
+		)
+		(pin "13"
+			(uuid "9a317020-2711-4145-b48d-f91d7bb7599b")
+		)
+		(pin "14"
+			(uuid "05501ffc-f57f-4a8e-8a2b-53446004b458")
+		)
+		(pin "5"
+			(uuid "cc8f12b7-9230-4c37-b868-9636bb822247")
+		)
+		(pin "7"
+			(uuid "db15fc96-d76c-43b8-85c8-66791fb59e65")
+		)
+		(pin "11"
+			(uuid "7c7a6073-d629-493e-a009-7d3f93b47038")
+		)
+		(pin "12"
+			(uuid "eee680aa-73e1-417d-a2b0-9bb6193e3d60")
+		)
+		(pin "6"
+			(uuid "f5f1db3a-e134-4a43-b18b-bda1fc7575da")
+		)
+		(pin "9"
+			(uuid "0cacabe0-12f4-4883-9ad6-13b3e79297a4")
+		)
+		(pin "4"
+			(uuid "dc426a52-7bc4-4e05-818e-6f2368f92164")
+		)
+		(pin "3"
+			(uuid "4403488b-2076-4b5b-90bb-708c8cec7119")
+		)
+		(pin "2"
+			(uuid "200609a3-7b31-4b03-a66b-baede74dcd77")
+		)
+		(pin "1"
+			(uuid "4b0aea2a-a03c-4b03-ae27-021b954e74c6")
+		)
+		(pin "10"
+			(uuid "aee5ecd6-a521-41f1-ad3a-76670f6440b5")
+		)
+		(instances
+			(project "valrob-carte-ihm-cdf-1"
+				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
+					(reference "U5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 143.51 92.71 0)
 		(unit 1)
@@ -5978,146 +6398,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74HC14")
-		(at 153.67 101.6 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85c2fbce-17a6-4759-a556-b305e41f39c4")
-		(property "Reference" "U5"
-			(at 153.67 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC14"
-			(at 153.67 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 153.67 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 153.67 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex inverter schmitt trigger"
-			(at 153.67 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Basic" "Y"
-			(at 153.67 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C5605"
-			(at 153.67 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Nexperia"
-			(at 153.67 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "74HC14D,653"
-			(at 153.67 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "10144067-c688-4729-9c25-62f5410d69c7")
-		)
-		(pin "13"
-			(uuid "9a317020-2711-4145-b48d-f91d7bb7599a")
-		)
-		(pin "14"
-			(uuid "05501ffc-f57f-4a8e-8a2b-53446004b457")
-		)
-		(pin "5"
-			(uuid "cc8f12b7-9230-4c37-b868-9636bb822246")
-		)
-		(pin "7"
-			(uuid "db15fc96-d76c-43b8-85c8-66791fb59e64")
-		)
-		(pin "11"
-			(uuid "7c7a6073-d629-493e-a009-7d3f93b47037")
-		)
-		(pin "12"
-			(uuid "eee680aa-73e1-417d-a2b0-9bb6193e3d5f")
-		)
-		(pin "6"
-			(uuid "f5f1db3a-e134-4a43-b18b-bda1fc7575d9")
-		)
-		(pin "9"
-			(uuid "0cacabe0-12f4-4883-9ad6-13b3e79297a3")
-		)
-		(pin "4"
-			(uuid "dc1a0e65-71bd-46b7-a496-046cb309fd8a")
-		)
-		(pin "3"
-			(uuid "3c4dacff-25c8-4a53-9c1b-8d52e07a956b")
-		)
-		(pin "2"
-			(uuid "200609a3-7b31-4b03-a66b-baede74dcd76")
-		)
-		(pin "1"
-			(uuid "4b0aea2a-a03c-4b03-ae27-021b954e74c5")
-		)
-		(pin "10"
-			(uuid "aee5ecd6-a521-41f1-ad3a-76670f6440b4")
-		)
-		(instances
-			(project "valrob-carte-ihm-cdf-1"
-				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "U5")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 143.51 86.36 0)
 		(unit 1)
@@ -6623,146 +6903,6 @@
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
 					(reference "#PWR043")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC14")
-		(at 153.67 58.42 0)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad021896-b77b-4e59-b60f-5474d52b4514")
-		(property "Reference" "U5"
-			(at 153.67 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC14"
-			(at 153.67 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 153.67 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 153.67 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex inverter schmitt trigger"
-			(at 153.67 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Basic" "Y"
-			(at 153.67 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C5605"
-			(at 153.67 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Nexperia"
-			(at 153.67 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "74HC14D,653"
-			(at 153.67 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "10144067-c688-4729-9c25-62f5410d69ca")
-		)
-		(pin "13"
-			(uuid "9a317020-2711-4145-b48d-f91d7bb7599d")
-		)
-		(pin "14"
-			(uuid "05501ffc-f57f-4a8e-8a2b-53446004b45a")
-		)
-		(pin "5"
-			(uuid "cc8f12b7-9230-4c37-b868-9636bb822249")
-		)
-		(pin "7"
-			(uuid "db15fc96-d76c-43b8-85c8-66791fb59e67")
-		)
-		(pin "11"
-			(uuid "7c7a6073-d629-493e-a009-7d3f93b4703a")
-		)
-		(pin "12"
-			(uuid "eee680aa-73e1-417d-a2b0-9bb6193e3d62")
-		)
-		(pin "6"
-			(uuid "f5f1db3a-e134-4a43-b18b-bda1fc7575dc")
-		)
-		(pin "9"
-			(uuid "0cacabe0-12f4-4883-9ad6-13b3e79297a6")
-		)
-		(pin "4"
-			(uuid "dc1a0e65-71bd-46b7-a496-046cb309fd8d")
-		)
-		(pin "3"
-			(uuid "3c4dacff-25c8-4a53-9c1b-8d52e07a956e")
-		)
-		(pin "2"
-			(uuid "200609a3-7b31-4b03-a66b-baede74dcd79")
-		)
-		(pin "1"
-			(uuid "4b0aea2a-a03c-4b03-ae27-021b954e74c8")
-		)
-		(pin "10"
-			(uuid "aee5ecd6-a521-41f1-ad3a-76670f6440b7")
-		)
-		(instances
-			(project "valrob-carte-ihm-cdf-1"
-				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "U5")
-					(unit 5)
 				)
 			)
 		)
@@ -7901,146 +8041,6 @@
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
 					(reference "R21")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC14")
-		(at 153.67 121.92 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db335452-ffca-475c-8539-42c72f545097")
-		(property "Reference" "U5"
-			(at 153.67 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC14"
-			(at 153.67 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 153.67 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 153.67 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex inverter schmitt trigger"
-			(at 153.67 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Basic" "Y"
-			(at 153.67 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C5605"
-			(at 153.67 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Nexperia"
-			(at 153.67 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "74HC14D,653"
-			(at 153.67 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "10144067-c688-4729-9c25-62f5410d69c8")
-		)
-		(pin "13"
-			(uuid "9a317020-2711-4145-b48d-f91d7bb7599b")
-		)
-		(pin "14"
-			(uuid "05501ffc-f57f-4a8e-8a2b-53446004b458")
-		)
-		(pin "5"
-			(uuid "cc8f12b7-9230-4c37-b868-9636bb822247")
-		)
-		(pin "7"
-			(uuid "db15fc96-d76c-43b8-85c8-66791fb59e65")
-		)
-		(pin "11"
-			(uuid "7c7a6073-d629-493e-a009-7d3f93b47038")
-		)
-		(pin "12"
-			(uuid "eee680aa-73e1-417d-a2b0-9bb6193e3d60")
-		)
-		(pin "6"
-			(uuid "f5f1db3a-e134-4a43-b18b-bda1fc7575da")
-		)
-		(pin "9"
-			(uuid "0cacabe0-12f4-4883-9ad6-13b3e79297a4")
-		)
-		(pin "4"
-			(uuid "dc1a0e65-71bd-46b7-a496-046cb309fd8b")
-		)
-		(pin "3"
-			(uuid "3c4dacff-25c8-4a53-9c1b-8d52e07a956c")
-		)
-		(pin "2"
-			(uuid "200609a3-7b31-4b03-a66b-baede74dcd77")
-		)
-		(pin "1"
-			(uuid "4b0aea2a-a03c-4b03-ae27-021b954e74c6")
-		)
-		(pin "10"
-			(uuid "aee5ecd6-a521-41f1-ad3a-76670f6440b5")
-		)
-		(instances
-			(project "valrob-carte-ihm-cdf-1"
-				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
-					(reference "U5")
-					(unit 2)
 				)
 			)
 		)
