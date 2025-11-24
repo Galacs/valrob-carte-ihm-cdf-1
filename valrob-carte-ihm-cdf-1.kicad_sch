@@ -7951,7 +7951,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 45.72 170.688 90)
 			(effects
 				(font
@@ -7978,7 +7978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Uniroyal Elec"
+		(property "Manufacturer" ""
 			(at 45.72 168.91 90)
 			(effects
 				(font
@@ -8005,7 +8005,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C23186"
+		(property "JLCPCB Part #" ""
 			(at 45.72 168.91 90)
 			(effects
 				(font
@@ -8673,7 +8673,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 259.08 65.532 90)
 			(effects
 				(font
@@ -8709,7 +8709,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C23345"
+		(property "JLCPCB Part #" ""
 			(at 259.08 67.31 90)
 			(effects
 				(font
@@ -8718,7 +8718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Uniroyal Elec"
+		(property "Manufacturer" ""
 			(at 259.08 67.31 90)
 			(effects
 				(font
@@ -9090,7 +9090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 64.77 132.588 90)
 			(effects
 				(font
@@ -9126,7 +9126,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C23186"
+		(property "JLCPCB Part #" ""
 			(at 64.77 130.81 90)
 			(effects
 				(font
@@ -9135,7 +9135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Uniroyal Elec"
+		(property "Manufacturer" ""
 			(at 64.77 130.81 90)
 			(effects
 				(font
@@ -9261,7 +9261,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 26.3652 132.08 0)
 			(effects
 				(font
@@ -9393,7 +9393,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 259.08 66.548 90)
 			(effects
 				(font
@@ -9429,7 +9429,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C23345"
+		(property "JLCPCB Part #" ""
 			(at 259.08 64.77 90)
 			(effects
 				(font
@@ -9438,7 +9438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Uniroyal Elec"
+		(property "Manufacturer" ""
 			(at 259.08 64.77 90)
 			(effects
 				(font
@@ -9563,7 +9563,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 45.72 168.148 90)
 			(effects
 				(font
@@ -9590,7 +9590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Uniroyal Elec"
+		(property "Manufacturer" ""
 			(at 45.72 166.37 90)
 			(effects
 				(font
@@ -9617,7 +9617,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C23186"
+		(property "JLCPCB Part #" ""
 			(at 45.72 166.37 90)
 			(effects
 				(font
@@ -10139,7 +10139,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 56.1848 132.08 0)
 			(effects
 				(font
@@ -10737,7 +10737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 191.4652 44.45 0)
 			(effects
 				(font
@@ -10773,7 +10773,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C14663"
+		(property "JLCPCB Part #" ""
 			(at 190.5 40.64 0)
 			(effects
 				(font
@@ -10782,7 +10782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" ""
 			(at 190.5 40.64 0)
 			(effects
 				(font
@@ -10909,7 +10909,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 99.822 147.32 90)
 			(effects
 				(font
@@ -10945,7 +10945,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C59461"
+		(property "JLCPCB Part #" ""
 			(at 101.6 147.32 0)
 			(effects
 				(font
@@ -10954,7 +10954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" ""
 			(at 101.6 147.32 0)
 			(effects
 				(font
@@ -11274,7 +11274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 140.97 58.1152 0)
 			(effects
 				(font
@@ -11301,7 +11301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
+		(property "Manufacturer" ""
 			(at 137.16 57.15 0)
 			(effects
 				(font
@@ -11328,7 +11328,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C15849"
+		(property "JLCPCB Part #" ""
 			(at 137.16 57.15 0)
 			(effects
 				(font
@@ -11567,7 +11567,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 257.81 70.612 90)
 			(effects
 				(font
@@ -11594,7 +11594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Uniroyal Elec"
+		(property "Manufacturer" ""
 			(at 257.81 72.39 0)
 			(effects
 				(font
@@ -11621,7 +11621,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25804"
+		(property "JLCPCB Part #" ""
 			(at 257.81 72.39 0)
 			(effects
 				(font
@@ -11671,7 +11671,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 115.57 140.462 90)
 			(effects
 				(font
@@ -11698,7 +11698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Uniroyal Elec"
+		(property "Manufacturer" ""
 			(at 115.57 142.24 0)
 			(effects
 				(font
@@ -11725,7 +11725,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25804"
+		(property "JLCPCB Part #" ""
 			(at 115.57 142.24 0)
 			(effects
 				(font
@@ -12018,7 +12018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 91.7448 151.13 0)
 			(effects
 				(font
@@ -12045,7 +12045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Basic" "Y"
+		(property "Basic" ""
 			(at 92.71 147.32 0)
 			(effects
 				(font
@@ -12054,7 +12054,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C14663"
+		(property "JLCPCB Part #" ""
 			(at 92.71 147.32 0)
 			(effects
 				(font
@@ -12063,7 +12063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" ""
 			(at 92.71 147.32 0)
 			(effects
 				(font
@@ -12072,7 +12072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
+		(property "Manufacturer Part Number" ""
 			(at 92.71 147.32 0)
 			(effects
 				(font
@@ -12260,7 +12260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 181.9148 44.45 0)
 			(effects
 				(font
@@ -12287,7 +12287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Basic" "Y"
+		(property "Basic" ""
 			(at 182.88 40.64 0)
 			(effects
 				(font
@@ -12296,7 +12296,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C45783"
+		(property "JLCPCB Part #" ""
 			(at 182.88 40.64 0)
 			(effects
 				(font
@@ -12305,7 +12305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
+		(property "Manufacturer" ""
 			(at 182.88 40.64 0)
 			(effects
 				(font
@@ -12314,7 +12314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A226MAQNNNE"
+		(property "Manufacturer Part Number" ""
 			(at 182.88 40.64 0)
 			(effects
 				(font
@@ -12365,7 +12365,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 144.018 52.07 90)
 			(effects
 				(font
@@ -12392,7 +12392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Uniroyal Elec"
+		(property "Manufacturer" ""
 			(at 142.24 52.07 0)
 			(effects
 				(font
@@ -12419,7 +12419,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25804"
+		(property "JLCPCB Part #" ""
 			(at 142.24 52.07 0)
 			(effects
 				(font
