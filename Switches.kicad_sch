@@ -590,6 +590,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1715,6 +1822,18 @@
 		(uuid "e34fd4be-7643-4cde-9f22-ef105aac2aa7")
 	)
 	(junction
+		(at 128.27 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "094d0d5a-2bb9-4e34-987b-2aab7cdd49fe")
+	)
+	(junction
+		(at 162.56 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d1c462e-1915-481c-b62c-e2120ae11fab")
+	)
+	(junction
 		(at 125.73 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1785,6 +1904,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc15b34e-0876-4128-9562-5e3eb45161af")
+	)
+	(junction
+		(at 142.24 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf66bcd8-65c4-4a60-b3cb-1fe3188bcb08")
 	)
 	(junction
 		(at 125.73 101.6)
@@ -1901,6 +2026,16 @@
 			(type default)
 		)
 		(uuid "1cd0eec7-57f6-4d33-aecd-392359986aca")
+	)
+	(wire
+		(pts
+			(xy 162.56 101.6) (xy 161.29 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20f1fd9f-e9e1-4aa5-8a0f-00368ab1b563")
 	)
 	(wire
 		(pts
@@ -2031,6 +2166,16 @@
 			(type default)
 		)
 		(uuid "451c0bd1-968b-4681-a12b-1a3e97c058f0")
+	)
+	(wire
+		(pts
+			(xy 142.24 101.6) (xy 143.51 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46df35d4-f67e-41a9-8b66-01e0adede024")
 	)
 	(wire
 		(pts
@@ -2364,7 +2509,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 101.6) (xy 161.29 101.6)
+			(xy 163.83 101.6) (xy 162.56 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2454,7 +2599,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 101.6) (xy 130.81 101.6)
+			(xy 125.73 101.6) (xy 128.27 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2664,6 +2809,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 101.6) (xy 130.81 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f126ffaa-8840-4d9e-b1ea-00a6e4e5cd10")
+	)
+	(wire
+		(pts
 			(xy 143.51 111.76) (xy 143.51 114.3)
 		)
 		(stroke
@@ -2674,7 +2829,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 101.6) (xy 143.51 101.6)
+			(xy 140.97 101.6) (xy 142.24 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3234,6 +3389,73 @@
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 142.24 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f33b08f-c2be-4591-9d15-b84152badb67")
+		(property "Reference" "TP1"
+			(at 137.668 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 144.78 99.5679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 147.32 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 142.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe1f6ead-1fce-4305-992d-9fc3641cbc08")
+		)
+		(instances
+			(project "valrob-carte-ihm-cdf-1"
+				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -4078,7 +4300,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 96.774 0)
+			(at 121.666 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4125,6 +4347,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 162.56 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "4890952d-bdac-4801-9d74-ede7b7bd16ea")
+		(property "Reference" "TP5"
+			(at 160.782 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 165.1 99.5679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 167.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81891cbc-4a06-413b-9bf0-df3d4a009d10")
+		)
+		(instances
+			(project "valrob-carte-ihm-cdf-1"
+				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 130.81 92.71 0)
 		(unit 1)
@@ -4143,7 +4432,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 96.774 0)
+			(at 134.366 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4340,7 +4629,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 96.774 0)
+			(at 145.796 95.758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5978,6 +6267,73 @@
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 128.27 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5d2833c-bcec-459e-a7a8-432843f3edcb")
+		(property "Reference" "TP2"
+			(at 123.698 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 130.81 99.5679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 133.35 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 128.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc4c2b40-4f19-4917-a8f5-cded1838932c")
+		)
+		(instances
+			(project "valrob-carte-ihm-cdf-1"
+				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6/aa7d80df-abab-4531-b4d6-bb798df60183"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
