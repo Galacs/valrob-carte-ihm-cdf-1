@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Carte IHM CDF 1Carte IHM CDF 1")
+		(date "2025-11-25")
+		(rev "01")
+		(company "Valrobotik")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
