@@ -4981,6 +4981,12 @@
 		(uuid "09f2d969-ce76-4f70-92f0-0e09ea498fef")
 	)
 	(junction
+		(at 273.05 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1158c886-f1e0-4745-938d-0a54b04a47a0")
+	)
+	(junction
 		(at 186.69 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5370,7 +5376,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 90.17) (xy 254 90.17)
+			(xy 246.38 90.17) (xy 248.92 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5590,7 +5596,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 95.25) (xy 246.38 95.25)
+			(xy 246.38 95.25) (xy 273.05 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5670,6 +5676,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 95.25) (xy 273.05 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38938cf9-e682-4c3a-987b-e989476c7746")
+	)
+	(wire
+		(pts
 			(xy 101.6 152.4) (xy 101.6 153.67)
 		)
 		(stroke
@@ -5737,6 +5753,16 @@
 			(type default)
 		)
 		(uuid "3d924b85-af0b-4d18-8da6-ee4ce41f7239")
+	)
+	(wire
+		(pts
+			(xy 273.05 81.28) (xy 273.05 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dd22980-a758-4dcd-9566-9ccc0bcf55f7")
 	)
 	(wire
 		(pts
@@ -5960,7 +5986,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 82.55) (xy 254 82.55)
+			(xy 246.38 82.55) (xy 248.92 82.55)
 		)
 		(stroke
 			(width 0)
@@ -6000,7 +6026,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 85.09) (xy 254 85.09)
+			(xy 246.38 85.09) (xy 248.92 85.09)
 		)
 		(stroke
 			(width 0)
@@ -6400,6 +6426,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 91.44) (xy 269.24 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b2e91e-5a1a-47a7-a175-8ba9b9fae70b")
+	)
+	(wire
+		(pts
 			(xy 71.12 140.97) (xy 71.12 142.24)
 		)
 		(stroke
@@ -6477,6 +6513,16 @@
 			(type default)
 		)
 		(uuid "9d47ed06-0b44-4d90-ae57-5fbb813854f4")
+	)
+	(wire
+		(pts
+			(xy 273.05 82.55) (xy 273.05 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9df12da4-754b-4ac7-be79-28e80a9dd2f4")
 	)
 	(wire
 		(pts
@@ -6800,6 +6846,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 82.55) (xy 269.24 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5862d5a-1f66-4329-b274-f090d2f04a4f")
+	)
+	(wire
+		(pts
 			(xy 31.75 133.35) (xy 29.21 133.35)
 		)
 		(stroke
@@ -6940,6 +6996,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 82.55) (xy 269.24 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e89b667b-d8fe-491e-9899-1982e29d7a63")
+	)
+	(wire
+		(pts
 			(xy 92.71 121.92) (xy 96.52 121.92)
 		)
 		(stroke
@@ -7000,7 +7066,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 87.63) (xy 254 87.63)
+			(xy 246.38 87.63) (xy 248.92 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7010,7 +7076,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 92.71) (xy 246.38 92.71)
+			(xy 246.38 92.71) (xy 269.24 92.71)
 		)
 		(stroke
 			(width 0)
@@ -10428,7 +10494,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 259.08 87.63 180)
+		(at 254 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -10437,7 +10503,7 @@
 		(fields_autoplaced yes)
 		(uuid "6295aa54-48ae-47d4-a1b3-5fd42b08492e")
 		(property "Reference" "J5"
-			(at 260.35 86.3599 0)
+			(at 255.27 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10446,7 +10512,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 261.62 86.36 90)
+			(at 256.54 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10455,7 +10521,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 259.08 87.63 0)
+			(at 254 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10464,7 +10530,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 259.08 87.63 0)
+			(at 254 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10473,7 +10539,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 259.08 87.63 0)
+			(at 254 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12025,6 +12091,177 @@
 			(project "valrob-carte-ihm-cdf-1"
 				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 269.24 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1f478c2-58b1-4246-801f-627a1a4186b3")
+		(property "Reference" "R23"
+			(at 267.716 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 267.716 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 271.018 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 269.24 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 269.24 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
+			(at 269.24 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 269.24 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25744"
+			(at 269.24 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acc8b853-5937-439e-a8eb-8624e941ca6b")
+		)
+		(pin "2"
+			(uuid "576f33c5-c954-4e83-bf4f-fdcaacba7ea5")
+		)
+		(instances
+			(project "valrob-carte-ihm-cdf-1"
+				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 273.05 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2e67415-0998-4db0-981c-ae2f2d9f922f")
+		(property "Reference" "#PWR062"
+			(at 273.05 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 273.05 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 273.05 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1b93ed4-3e86-46ba-a8d7-a0975d4d64df")
+		)
+		(instances
+			(project "valrob-carte-ihm-cdf-1"
+				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -14061,6 +14298,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 273.05 87.63 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed06bef5-cd37-44b5-8d3f-b7b216cb2ed2")
+		(property "Reference" "R22"
+			(at 274.574 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 274.574 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 271.272 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 273.05 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 273.05 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
+			(at 273.05 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 273.05 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25744"
+			(at 273.05 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51a2cc98-7a31-4787-943e-f23702ec26d6")
+		)
+		(pin "2"
+			(uuid "f8cca621-279d-4441-a095-27c351127415")
+		)
+		(instances
+			(project "valrob-carte-ihm-cdf-1"
+				(path "/59430078-5c05-41f6-b5ab-2c89bd050ea6"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 68.58 109.22 0)
 		(unit 1)
@@ -14333,7 +14676,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -14343,7 +14685,7 @@
 		)
 		(uuid "aa7d80df-abab-4531-b4d6-bb798df60183")
 		(property "Sheetname" "Switches"
-			(at 252.73 97.0784 0)
+			(at 252.73 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
