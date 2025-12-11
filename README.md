@@ -12,8 +12,11 @@ ESP32-S3-WROOM-1 HM interface card
 
 ## Top preview
 
+<img width="1303" height="883" alt="image" src="https://github.com/user-attachments/assets/1a765446-cbdd-4b8f-b52c-cbcd64f8e5d8" />
 
 ## Preview 3d render
+
+<img width="1105" height="881" alt="image" src="https://github.com/user-attachments/assets/6bfbbf58-b8c2-48a3-ab0f-a83e5fa16651" />
 
 ## Pin definitions
 
