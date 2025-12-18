@@ -13394,7 +13394,7 @@
 		(property "Reference" "R7"
 			(at -1.7725 0 0)
 			(layer "F.SilkS")
-			(uuid "3d7da6f0-31ea-4589-96ec-f8930767c9ea")
+			(uuid "71e72e0b-9d1d-4d9b-af9a-81970b02e258")
 			(effects
 				(font
 					(size 1 1)
@@ -13405,7 +13405,7 @@
 		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
-			(uuid "fd40482f-27fa-4cf9-b5f8-9e12635ac9c0")
+			(uuid "0cec962c-72b9-4b4f-a9f3-3abe59c32337")
 			(effects
 				(font
 					(size 1 1)
@@ -13417,7 +13417,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0385f52e-2948-4b24-8790-11be656d74d7")
+			(uuid "a9d145a6-eebc-4dfa-a90f-6f4aff67b557")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13429,7 +13429,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "47f0ed6c-440d-4473-a91a-c2a01f57d2fb")
+			(uuid "3e20b38a-0f82-42bd-90f1-b31ec6cdd2f7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13619,7 +13619,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 2 "GND")
+			(net 3 "+3V3")
 			(pintype "passive")
 			(uuid "bb312333-176a-4463-a28c-0705944b8963")
 		)
@@ -17529,7 +17529,7 @@
 		(property "Reference" "J1"
 			(at 4.5325 -5.7475 180)
 			(layer "F.SilkS")
-			(uuid "b44658da-10ac-41c3-80ee-b35a218b32df")
+			(uuid "f8f89ba5-e170-4795-b96e-9f9b42587523")
 			(effects
 				(font
 					(size 1 1)
@@ -17540,7 +17540,7 @@
 		(property "Value" "USB_C_Receptacle_USB2.0_14P"
 			(at 0 5.1 90)
 			(layer "F.Fab")
-			(uuid "446a8835-3555-40f3-b5bf-2c975bd3b383")
+			(uuid "3b2d33d3-23b2-4b99-a74d-d870c0d8b7bf")
 			(effects
 				(font
 					(size 1 1)
@@ -17553,7 +17553,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3fa5e5b7-9794-4e7c-837a-226bb7e6f76b")
+			(uuid "9de2a098-b45d-48d6-a072-63b345fe6673")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17566,7 +17566,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "058636e3-d4cb-4bed-a05a-fa0b60f24b18")
+			(uuid "29d3c01e-5308-443f-9bf8-1b1bad9ddb66")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26680,15 +26680,6 @@
 		(uuid "0c7c1b22-cd3f-48ae-9506-916aa03ed2c7")
 	)
 	(via
-		(at 169.5 92)
-		(size 0.7)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "0c988bd6-9dba-4b15-adb4-738cc65fb3ed")
-	)
-	(via
 		(at 121.5 83)
 		(size 0.7)
 		(drill 0.3)
@@ -29140,7 +29131,7 @@
 		(uuid "8f452c42-3c88-49b1-a3de-94ff03a6e49b")
 	)
 	(segment
-		(start 172.75 88.5)
+		(start 172.75 92)
 		(end 172.75 95.75)
 		(width 0.5)
 		(layer "F.Cu")
@@ -29202,6 +29193,14 @@
 		(layer "F.Cu")
 		(net 3)
 		(uuid "b2f6519a-cfeb-4361-be96-0a59a1681eba")
+	)
+	(segment
+		(start 168.5325 92)
+		(end 172.75 92)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "b5abc89e-5949-4f4b-ae50-4dcfaad9449a")
 	)
 	(segment
 		(start 133.05 72.8625)
@@ -29282,6 +29281,14 @@
 		(layer "F.Cu")
 		(net 3)
 		(uuid "d7417393-9cda-45c1-9ebb-8f441b649d15")
+	)
+	(segment
+		(start 172.75 88.5)
+		(end 172.75 92)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "ddcb2420-88e6-4e5a-a943-c6e2b9572259")
 	)
 	(segment
 		(start 171.08 86.83)
